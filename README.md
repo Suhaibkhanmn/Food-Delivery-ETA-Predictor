@@ -29,19 +29,21 @@ python -m venv venv
 venv\Scripts\activate   # Windows
 source venv/bin/activate # Mac / Linux
 
-3️⃣ Install the dependencies
+###3️⃣ Install the dependencies
 
 pip install --upgrade pip
 pip install -r requirements.txt
 
-▶️ Run the Web App
+###▶️ Run the Web App
 
 streamlit run app.py
 
 Then open your browser at:
 http://localhost:8501
 
-📊 Model Performance
+---
+
+### 📊 Model Performance
 
 Mean Absolute Error (MAE): ~6.7 minutes
 
@@ -50,4 +52,5 @@ Median Error: ~4.8 minutes
 90% of predictions within ~14 minutes
 
 This means that for most orders, the predicted time is within about 7 minutes of the actual time.
+
 
